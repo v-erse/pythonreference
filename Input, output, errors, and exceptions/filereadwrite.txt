@@ -1,0 +1,7 @@
+hello, this is an example text file
+this is line two
+this is line three
+this is line four
+this is a line I added in python
+this is a line I added in python
+this is a line I added in python
