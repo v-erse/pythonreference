@@ -12,12 +12,11 @@ for x, y in dictionary.items():
     print(x, y)
 
 
-# don't mind this, just making an alphabet list (with a list comprehension)
-alphabet = [chr(c).upper() for c in range(ord('a'), ord('z')+1)]
-
 # dict comprehensions!
-alphabetdict = {x+1: alphabet[x] for x in range(len(alphabet))}
+alphabetdict = {x-96: chr(x) for x in range(ord('a'), ord('z')+1)}
 print("\nAlphabet Dictionary", alphabetdict, sep="\n")
 
 print("\nAlphabet Dictionary values", list(alphabetdict.values()), sep="\n")
 print("\nAlphabet Dictionary keys", list(alphabetdict.keys()), sep="\n")
+
+print("", *alphabetdict.items(), sep="\n")
