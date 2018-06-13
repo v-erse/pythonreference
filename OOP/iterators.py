@@ -12,6 +12,7 @@ class LetterByLetter:
 
     def __init__(self, word):
         self.word = word
+        # sort the letters of this word alphabetically
         self.orderedword = sorted(word)
         self.index = 0
 
