@@ -1,5 +1,6 @@
 # open a file
-f = open("Reference/Input, output, errors, and exceptions/filereadwrite.txt", 'r+')
+f = open("Reference/Input, output, errors, and exceptions/filereadwrite.txt",
+         "r+")
 print(f.read())
 
 # print each line on a file

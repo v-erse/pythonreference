@@ -44,5 +44,6 @@ class NemoCharacter(Fish, Character):
 
 
 marlin = NemoCharacter("orange", "omnivore", "Marlin")
-marlin.printHabitat()  # <- this method comes from Animal, which is extended by Fish
+marlin.printHabitat()  # <- this method comes from Animal, which is extended
+# by Fish
 marlin.printName()  # <- this method comes from Character
