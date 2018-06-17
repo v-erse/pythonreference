@@ -5,9 +5,9 @@ from timeit import Timer
 
 def factorial(n):
     if n > 0:
-        return n + factorial(n-1)
+        return n * factorial(n-1)
     else:
-        return 0
+        return 1
 
 
 # First we make a Timer instance. The first parameter is the statement that is
