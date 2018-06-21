@@ -15,3 +15,10 @@ print("Hello, my name is {name} and I am {age} years old!".format(
 dictionary = {x: chr(x) for x in range(ord('a'), ord('z')+1)}
 for number, letter in dictionary.items():
     print("{0:3d} -> {1:3}".format(number, letter))
+
+# there are also f-strings
+# similar to the format method, but slightly simpler. We can use the name and
+# age example fro line 12 to demonstrate
+name = 'Abdullah'
+age = 20
+print(f'Hello my name is {name} and I\'m {20} years old!')
