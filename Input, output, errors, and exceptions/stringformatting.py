@@ -16,7 +16,7 @@ dictionary = {x: chr(x) for x in range(ord('a'), ord('z')+1)}
 for number, letter in dictionary.items():
     print("{0:3d} -> {1:3}".format(number, letter))
 
-# there are also f-strings
+# there are also f-strings (aka formatted string literals)
 # similar to the format method, but slightly simpler. We can use the name and
 # age example fro line 12 to demonstrate
 name = 'Abdullah'
