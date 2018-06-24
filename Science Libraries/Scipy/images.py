@@ -1,4 +1,4 @@
-from scipy.misc import imread, imsave, imresize
+from scipy.misc import imread
 
-img = imread('../Numpy/matrixmultiplication.JPG')
+img = imread("../Numpy/matrixmultiplication.jpg")
 print(img.shape)
