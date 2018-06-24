@@ -14,12 +14,26 @@ print(arr[0])
 rank2arr = np.array([[1, 2, 3], [3, 4, 5]])
 print(f'\nrank2arr:\nShape:\n{rank2arr.shape}\nContents:\n{rank2arr}')
 
-rank3arr = np.array([
+rank2arr2 = np.array([
     [1, 2, 3],
     [3, 4, 5],
     [6, 7, 8]
 ])
-print(f'\n\nrank3arr:\n{rank3arr}')
+print(f'\n\nrank2arr2:\n{rank2arr2}')
+
+# a rank 3 array (i.e. a 3d array):
+rank3arr = np.array([
+    [[1, 2, 3],
+     [3, 4, 5],
+     [6, 7, 8]],
+    [[1, 2, 3],
+     [3, 4, 5],
+     [6, 7, 8]]
+])
+print(f'\n\nrank3arr: \n{rank3arr}')
+# this 3d arrays shape is (2, 3, 3), this means that it has 2 rows, of 3 rows,
+# of 3 columns
+print(rank3arr.shape)
 
 # Numpy provides some functions to create certain kinds of arrays:
 print('\n\nFunctions for array creation:')

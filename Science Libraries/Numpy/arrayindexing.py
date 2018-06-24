@@ -53,3 +53,13 @@ print("Elements larger than 10:", arr > 10,     sep="\n")
 print("Elements divisible by 3:", arr % 3 == 0, sep="\n")
 # We can also use these boolean statements as a type of filter
 print("Elements larger than 10:", arr[arr % 3 == 0], sep="\n")
+
+
+# Understanding indexing for n-dimensional arrays:
+three_d = np.arange(24).reshape(2, 3, 4)
+print(f'\n\nWe start with a 3D array, three_d:\n{three_d}')
+print(f'Indexing once (three_d[0]) will give us a 2D array:\n{three_d[0]}')
+print(
+    f'Indexing again(three_d[0][0]) will give us a 1D array:\n{three_d[0][0]}')
+print(
+    f'Indexing a third time, will give us a single value:\n{three_d[0][0][0]}')
