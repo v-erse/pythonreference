@@ -1,6 +1,6 @@
 # Generators can do what a class-based iterator can, in fewer lines
-# the __iter__ and __next__ methods are created automatically, and the StopIteration
-# exception is automatically raised as well
+# the __iter__ and __next__ methods are created automatically, and the
+# StopIteration exception is automatically raised as well
 
 
 def letter_by_letter(word):
@@ -15,8 +15,8 @@ for char in letter_by_letter("alphabetical"):
 
 
 # Generator expressions
-# Some simple generators can be coded in a similar to way to list comprehensions, but
-# with round brackets
+# Some simple generators can be coded in a similar to way to list
+# comprehensions, but with round brackets
 
 # this makes a generator object and stores it in sumofsquares
 sumofsquares = (i*i for i in range(10))
