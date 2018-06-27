@@ -31,7 +31,7 @@ rank3arr = np.array([
      [6, 7, 8]]
 ])
 print(f'\n\nrank3arr: \n{rank3arr}')
-# this 3d arrays shape is (2, 3, 3), this means that it has 2 rows, of 3 rows,
+# this 3d arrays shape is (2, 3, 3), this means that it has 2 rows, of 3 rows
 # of 3 columns
 print(rank3arr.shape)
 
