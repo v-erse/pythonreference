@@ -24,7 +24,8 @@ print("\n\nBroadcasting:")
 # Numpy broadcasting allows us to take 'shortcuts' around some possible
 # obstacles when doing array math
 x = np.arange(1, 13).reshape(4, 3)
-y = np.array([1, 1, 1])
+print(x)
+y = np.array([1, 2, 1])
 # In this example, y will be treated as if it has been stacked 4 times, to
 # match the shape of x. This is broadcasting
 print(x + y)
