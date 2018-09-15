@@ -5,8 +5,9 @@ from matplotlib.animation import FuncAnimation
 # Create figure with black background colour
 fig = plt.figure(facecolor="black")
 
-# Create ax with no frame
+# Create ax with no frame, add to figure
 ax = plt.axes(xlim=(0, 2), ylim=(-2, 2), frameon=False)
+fig.add_axes(ax)
 # and no ticks
 ax.set_xticks([])
 ax.set_yticks([])
