@@ -34,7 +34,7 @@ ax2.set_xlim((-5, 5))
 ax2.set_ylim((-5, 5))
 ax2.set_zlim((0, 1))
 x2d = y2d = np.linspace(-5, 5, 500)
-x2d, y2d = np.meshgrid(x1d, y2d)
+x2d, y2d = np.meshgrid(x2d, y2d)
 z2d = func2d(x2d, y2d)
 ax2.plot_surface(x2d, y2d, z2d, cmap=cm.coolwarm)
 
