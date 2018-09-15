@@ -8,7 +8,7 @@ fig.suptitle("1D and 2D Gaussian Functions")
 
 
 def func1d(x):
-    a = 0.5
+    a = 0.8
     b = 0
     c = 0.8
     return a*np.exp(-(x-b)**2 / 2*c**2)
@@ -23,7 +23,7 @@ ax1.plot(x1d, y1d)
 
 
 def func2d(x, y):
-    A = 1
+    A = 0.8
     xo, yo = (0, 0)
     sigx, sigy = (0.8, 0.8)
     return A*np.exp(-1*((x-xo)**2/2*sigx**2 + (y-yo)**2/2*sigy**2))
