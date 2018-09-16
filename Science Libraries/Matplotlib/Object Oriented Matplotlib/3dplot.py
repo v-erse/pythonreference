@@ -19,7 +19,7 @@ ax1.set_xlim((-5, 5))
 ax1.set_ylim((0, 1))
 x1d = np.linspace(-5, 5, 1000)
 y1d = func1d(x1d)
-ax1.plot(x1d, y1d)
+ax1.plot(x1d, y1d, color='k')
 
 
 def func2d(x, y):
@@ -36,6 +36,6 @@ ax2.set_zlim((0, 1))
 x2d = y2d = np.linspace(-5, 5, 500)
 x2d, y2d = np.meshgrid(x2d, y2d)
 z2d = func2d(x2d, y2d)
-ax2.plot_surface(x2d, y2d, z2d, cmap=cm.coolwarm)
+ax2.plot_surface(x2d, y2d, z2d, cmap=cm.viridis)
 
 plt.show()
